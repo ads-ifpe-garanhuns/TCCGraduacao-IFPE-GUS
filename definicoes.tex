@@ -75,6 +75,9 @@
 	\counterwithout{table}{chapter}
 }
 \makeatother
+%Lista de figuras e de tabelas com o nome antes do número (Figura 1, Tabela 1...).
+\renewcommand{\cftfigurename}{\figurename\space}
+\renewcommand{\cfttablename}{\tablename\space}
 %Gerar Lorem Ipsum.
 \usepackage{lipsum}
 %Idiomas (o último é o principal do documento).
